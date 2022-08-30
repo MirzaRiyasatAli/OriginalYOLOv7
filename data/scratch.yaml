@@ -1,0 +1,9 @@
+path: ../data/scratch  # dataset root dir
+train: /content/yolov5/carscanner-1/train  # train images (relative to 'path') 128 images
+val: /content/yolov5/carscanner-1/valid  # val images (relative to 'path') 128 images
+test: /content/yolov5/carscanner-1/test # test images (optional)
+
+# Classes
+names:
+  0: dent
+  1: scratch
